@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Salary Prediction</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container col-md-5">
+    
+    <h3 class="text-center">My Salary Prediction Form</h3>
+
+<div class="text-center">
+  <form action="/result" method="POST">
+        <div class="form-group">
+      <label for="state">State</label>
+      <input type="text" class="form-control" id="state" name="State" placeholder="State">
+      <label for="district">District</label>
+      <input type="text" class="form-control" id="district" name="District" placeholder="District">
+      <label for="market">Market</label>
+      <input type="text" class="form-control" id="market" name="Market" placeholder="Market">
+      <label for="commodity">Commodity</label>
+      <input type="text" class="form-control" id="commodity" name="Commodity" placeholder="Commodity">
+      <label for="variety">Variety</label>
+      <input type="text" class="form-control" id="variety" name="Variety" placeholder="Variety">
+    </div>
+    <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</div>
+</body>
+</html>
